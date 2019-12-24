@@ -9,11 +9,6 @@ pipeline:
   return_sequence: True
 - name: "RegexFeaturizer"
 - name: "CRFEntityExtractor"
-  features: [["low", "title"], ["bias", "suffix3"], ["upper", "pos", "pos2", "text_dense_features"]]
-  BILOU_flag: true
-  max_iterations: 100
-  L1_c: 0.1
-  L2_c: 0.1
 - name: "EntitySynonymMapper"
 
 # Configuration for Rasa Core.

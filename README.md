@@ -12,39 +12,42 @@ Tool, trained for entity recognition (_source, destination_) in travel domain.
 * https://www.kaggle.com/open-flights/airports-train-stations-and-ferry-terminals/data
 * https://github.com/first20hours/google-10000-english
 
-### Results
+**Input example:**
+```
+Hi I’m going from London from Tokyo tomorrow morning very early
+```
+**Output example:**
 ```
 {
-  "source": {
-    "precision": 0.932624693376942,
-    "recall": 0.9700629358734478,
-    "f1-score": 0.9509754877438719,
-    "support": 5879
+  "intent": {
+    "name": null,
+    "confidence": 0.0
   },
-  "destination": {
-    "precision": 0.9318258521768478,
-    "recall": 0.9583477959041999,
-    "f1-score": 0.9449007529089665,
-    "support": 5762
-  },
-  "micro avg": {
-    "precision": 0.9322315422307117,
-    "recall": 0.9642642384674857,
-    "f1-score": 0.9479773667764547,
-    "support": 11641
-  },
-  "macro avg": {
-    "precision": 0.9322252727768949,
-    "recall": 0.9642053658888239,
-    "f1-score": 0.9479381203264192,
-    "support": 11641
-  },
-  "weighted avg": {
-    "precision": 0.9322292872267021,
-    "recall": 0.9642642384674857,
-    "f1-score": 0.9479686479432771,
-    "support": 11641
-  }
+  "entities": [
+    {
+      "start": 18,
+      "end": 24,
+      "value": "London",
+      "entity": "source",
+      "confidence": 0.9807435677659717,
+      "extractor": "CRFEntityExtractor",
+      "processors": [
+        "EntitySynonymMapper"
+      ]
+    },
+    {
+      "start": 30,
+      "end": 35,
+      "value": "Tokyo",
+      "entity": "source",
+      "confidence": 0.9767937787530808,
+      "extractor": "CRFEntityExtractor",
+      "processors": [
+        "EntitySynonymMapper"
+      ]
+    }
+  ],
+  "text": "Hi I’m going from London from Tokyo tomorrow morning very early"
 }
 ```
 
@@ -77,12 +80,14 @@ rasa train nlu
 ### Run in Docker:
 ```
 ### Build:
+git clone https://github.com/km1414/travel-nlu.git
+cd travel-nlu
 docker build . -t travel-nlu:tag1
 
 ### Run shell:
 docker run --rm -it travel-nlu:tag1
 
-### Pull from Docker Hub and run shell (nu building)
+### Pull from Docker Hub and run shell (no building)
 docker run --rm -it km1414/travel-nlu
 ```
 
@@ -90,7 +95,7 @@ docker run --rm -it km1414/travel-nlu
 ### Query examples:
 ```
 I’m going from Tokyo to London tomorrow
-I’m going to London from Tokyo tomorrow morning very early
+I’m going London from Tokyo tomorrow morning very early
 Tokyo to London
 Tokyo London
 from London to Rio de Janeiro on Monday
@@ -106,4 +111,23 @@ from 8am
 Winter to Summer
 i dong go anywhere, thank you
 I want to go from Berlin to London, after that I go to Vilnius, and finally go to Tallin
+```
+
+### Results
+Training and testing sets are randomly generated using exactly same rules and same possible locations.
+```
+{
+  "destination": {
+    "precision": 0.9849583182312432,
+    "recall": 0.989080982711556,
+    "f1-score": 0.9870153455007719,
+    "support": 5495
+  },
+  "source": {
+    "precision": 0.9717965800577393,
+    "recall": 0.9981751824817519,
+    "f1-score": 0.9848092719702937,
+    "support": 4384
+  }
+}
 ```
