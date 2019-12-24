@@ -14,7 +14,7 @@ Tool, trained for entity recognition (_source, destination_) in travel domain.
 
 **Input example:**
 ```
-Hi I’m going from London from Tokyo tomorrow morning very early
+Hi I’m going from London to Tokyo tomorrow morning very early
 ```
 **Output example:**
 ```
@@ -29,25 +29,25 @@ Hi I’m going from London from Tokyo tomorrow morning very early
       "end": 24,
       "value": "London",
       "entity": "source",
-      "confidence": 0.9807435677659717,
+      "confidence": 0.9842661731474959,
       "extractor": "CRFEntityExtractor",
       "processors": [
         "EntitySynonymMapper"
       ]
     },
     {
-      "start": 30,
-      "end": 35,
+      "start": 28,
+      "end": 33,
       "value": "Tokyo",
-      "entity": "source",
-      "confidence": 0.9767937787530808,
+      "entity": "destination",
+      "confidence": 0.9600808000644201,
       "extractor": "CRFEntityExtractor",
       "processors": [
         "EntitySynonymMapper"
       ]
     }
   ],
-  "text": "Hi I’m going from London from Tokyo tomorrow morning very early"
+  "text": "Hi I’m going from London to Tokyo tomorrow morning very early"
 }
 ```
 
@@ -95,7 +95,7 @@ docker run --rm -it km1414/travel-nlu
 ### Query examples:
 ```
 I’m going from Tokyo to London tomorrow
-I’m going London from Tokyo tomorrow morning very early
+I’m going from London to Tokyo tomorrow morning very early
 Tokyo to London
 Tokyo London
 from London to Rio de Janeiro on Monday
