@@ -1,0 +1,309 @@
+~[pos]
+	Port Moresby
+	Godthab
+	Thule
+	Reykjavik
+	Toronto
+	Winnipeg
+	Halifax
+	St Johns
+	Vancouver
+	Edmonton
+	Coral Harbour
+	Dawson Creek
+	Regina
+	Algiers
+	Porto-Novo
+	Ouagadougou
+	Accra
+	Abidjan
+	Lagos
+	Niamey
+	Tunis
+	Lome
+	Brussels
+	Berlin
+	Tallinn
+	Helsinki
+	Mariehamn
+	London
+	Guernsey
+	Jersey
+	Isle of Man
+	Stanley
+	Amsterdam
+	Dublin
+	Copenhagen
+	Faeroe
+	Luxembourg
+	Oslo
+	Longyearbyen
+	Warsaw
+	Stockholm
+	Johannesburg
+	Gaborone
+	Brazzaville
+	Mbabane
+	Bangui
+	Malabo
+	St Helena
+	Mauritius
+	Chagos
+	Douala
+	Lusaka
+	Comoro
+	Mayotte
+	Reunion
+	Antananarivo
+	Luanda
+	Libreville
+	Sao Tome
+	Maputo
+	Mahe
+	Ndjamena
+	Harare
+	Blantyre
+	Maseru
+	Kinshasa
+	Lubumbashi
+	Kigali
+	Bamako
+	Banjul
+	Canary
+	Madrid
+	Freetown
+	Bissau
+	Monrovia
+	Casablanca
+	Dakar
+	Nouakchott
+	Conakry
+	Cape Verde
+	Addis Ababa
+	Bujumbura
+	Mogadishu
+	Cairo
+	Nairobi
+	Tripoli
+	Khartoum
+	Juba
+	Dar es Salaam
+	Kampala
+	Tirane
+	Sofia
+	Nicosia
+	Zagreb
+	Paris
+	Miquelon
+	Athens
+	Budapest
+	Rome
+	Ljubljana
+	Prague
+	Jerusalem
+	Malta
+	Vienna
+	Lisbon
+	Azores
+	Sarajevo
+	Bucharest
+	Zurich
+	Istanbul
+	Chisinau
+	Skopje
+	Gibraltar
+	Belgrade
+	Podgorica
+	Bratislava
+	Grand Turk
+	Santo Domingo
+	Guatemala
+	Tegucigalpa
+	Jamaica
+	Mexico City
+	Mazatlan
+	Cancun
+	Hermosillo
+	Tijuana
+	Managua
+	Panama
+	Costa Rica
+	El Salvador
+	Port-au-Prince
+	Havana
+	Cayman
+	Nassau
+	Belize
+	Rarotonga
+	Fiji
+	Tongatapu
+	Tarawa
+	Wallis
+	Apia
+	Pago Pago
+	Tahiti
+	Gambier
+	Marquesas
+	Efate
+	Noumea
+	Auckland
+	Chatham
+	South Pole
+	Kabul
+	Bahrain
+	Riyadh
+	Tehran
+	Amman
+	Kuwait
+	Beirut
+	Dubai
+	Muscat
+	Karachi
+	Baghdad
+	Damascus
+	Qatar
+	Enderbury
+	Saipan
+	Guam
+	Majuro
+	Midway
+	Truk
+	Ponape
+	Palau
+	Kosrae
+	Taipei
+	Tokyo
+	Seoul
+	Manila
+	Cordoba
+	Buenos Aires
+	La Rioja
+	Salta
+	Mendoza
+	Catamarca
+	Tucuman
+	San Juan
+	Jujuy
+	San Luis
+	Rio Gallegos
+	Ushuaia
+	Belem
+	Sao Paulo
+	Fortaleza
+	Campo Grande
+	Boa Vista
+	Rio Branco
+	Santiago
+	Easter
+	Guayaquil
+	Galapagos
+	Asuncion
+	Bogota
+	La Paz
+	Paramaribo
+	Cayenne
+	Lima
+	Montevideo
+	Caracas
+	Guyana
+	Antigua
+	Barbados
+	Dominica
+	Martinique
+	Guadeloupe
+	Grenada
+	St Thomas
+	Puerto Rico
+	St Kitts
+	St Lucia
+	Aruba
+	Curacao
+	Anguilla
+	Port of Spain
+	Tortola
+	St Vincent
+	Qyzylorda
+	Bishkek
+	Oral
+	Baku
+	Yakutsk
+	Vladivostok
+	Anadyr
+	Srednekolymsk
+	Irkutsk
+	Kiev
+	Simferopol
+	Moscow
+	Minsk
+	Kaliningrad
+	Krasnoyarsk
+	Omsk
+	Samara
+	Yekaterinburg
+	Ashgabat
+	Dushanbe
+	Samarkand
+	Calcutta
+	Colombo
+	Phnom Penh
+	Dhaka
+	Hong Kong
+	Vientiane
+	Macau
+	Katmandu
+	Thimphu
+	Maldives
+	Bangkok
+	Saigon
+	Rangoon
+	Makassar
+	Jayapura
+	Kuala Lumpur
+	Brunei
+	Jakarta
+	Dili
+	Singapore
+	Brisbane
+	Darwin
+	Hobart
+	Sydney
+	Melbourne
+	Adelaide
+	Perth
+	Christmas
+	Norfolk
+	Shanghai
+	Pyongyang
+	Ulaanbaatar
+	Anchorage
+	Honolulu
+	New York
+	Los Angeles
+	Chicago
+	Denver
+	Phoenix
+	Riga
+	Vilnius
+	Yerevan
+	Asmera
+	Gaza
+	Tbilisi
+	Aden
+	Bermuda
+	Guadalcanal
+	Nauru
+	Funafuti
+	Windhoek
+	Djibouti
+	Montserrat
+	Johnston
+	Rio de Janeiro
+	Scoresbysund
+	Blanc-Sablon
+	El Aaiun
+	Niue
+	Adak
+	Lord Howe
+	Cocos
+	Hovd
+	Vaduz

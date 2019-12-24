@@ -1,0 +1,55 @@
+%[&travel](10000)
+    ~[start-phrase?] [from?] [@[source]|~[neg]] [to?] [@[destination]|~[neg]] ~[end-phrase?]
+    ~[start-phrase?] [to] [@[destination]|~[neg]] [from] [@[source]|~[neg]] ~[end-phrase?]
+    [[[from?]|[@[source]|~[neg]]?] [to?]?] [@[destination]|~[neg]]
+
+
+~[start-phrase]
+    [&I|We] go
+    [&I|We] am [going|flying]
+    I'm [going|flying]
+    We are [going|flying]
+    We're [going|flying]
+    [&I|We] need tickets
+    [&I|We] want to go
+    Flight
+
+~[end-phrase]
+    please
+    today
+    tomorrow
+    [this|next|on|at] ~[when]
+
+~[when]
+    monday
+    tuesday
+    wednesday
+    thursday
+    friday
+    saturday
+    sunday
+    january
+    february
+    march
+    april
+    may
+    june
+    july
+    august
+    september
+    october
+    november
+    december
+    week
+    month
+    year
+
+
+@[source]
+    ~[pos]
+
+@[destination]
+    ~[pos]
+
+|pos.txt
+|neg.txt
